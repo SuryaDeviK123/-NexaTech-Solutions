@@ -1,0 +1,197 @@
+.services {
+  padding: 80px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  width: 280px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card h3 {
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+.service-card p {
+  color: #555;
+  line-height: 1.6;
+}
+.portfolio {
+  padding: 80px;
+  text-align: center;
+  background: white;
+}
+
+.portfolio h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  width: 300px;
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+}
+
+.portfolio-card h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.portfolio-card p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.portfolio-card button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.portfolio-card button:hover {
+  background: #1d4ed8;
+}
+.careers {
+  padding: 80px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.careers h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.careers p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.job-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  width: 280px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.job-card p {
+  margin-bottom: 20px;
+}
+
+.job-card button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background: #1d4ed8;
+}
+.contact {
+  padding: 80px;
+  text-align: center;
+  background: white;
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contact-form button:hover {
+  background: #1d4ed8;
+}
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

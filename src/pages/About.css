@@ -1,0 +1,199 @@
+/* =========================
+   About Section
+========================= */
+
+.about-section {
+  width: 100%;
+  background: #f8fafc;
+  padding: 80px 8%;
+  box-sizing: border-box;
+}
+
+/* Main Container */
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 70px;
+}
+
+/* =========================
+   Image
+========================= */
+
+.about-image-wrapper {
+  width: 48%;
+  flex-shrink: 0;
+}
+
+.about-image {
+  width: 100%;
+  height: 380px;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.18);
+}
+
+/* =========================
+   Text
+========================= */
+
+.about-text {
+  width: 52%;
+}
+
+.about-label {
+  display: inline-block;
+
+  color: #2563eb;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 12px;
+}
+
+.about-text h1 {
+  margin: 0 0 20px;
+
+  color: #0f172a;
+
+  font-size: 42px;
+
+  line-height: 1.2;
+}
+
+.about-text h1 span {
+  color: #2563eb;
+}
+
+.about-text p {
+  margin: 0 0 16px;
+
+  color: #475569;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+}
+
+/* =========================
+   Statistics
+========================= */
+
+.about-features {
+  display: flex;
+
+  gap: 35px;
+
+  margin-top: 30px;
+
+  padding-top: 25px;
+
+  border-top: 1px solid #e2e8f0;
+}
+
+.about-features div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.about-features strong {
+  color: #2563eb;
+
+  font-size: 28px;
+
+  font-weight: 700;
+}
+
+.about-features span {
+  color: #64748b;
+
+  font-size: 13px;
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 900px) {
+
+  .about-section {
+    padding: 60px 6%;
+  }
+
+  .about-container {
+    flex-direction: column;
+
+    gap: 40px;
+  }
+
+  .about-image-wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about-image {
+    height: 330px;
+  }
+
+  .about-text {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .about-features {
+    justify-content: center;
+  }
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 600px) {
+
+  .about-section {
+    padding: 45px 5%;
+  }
+
+  .about-image {
+    height: 240px;
+
+    border-radius: 15px;
+  }
+
+  .about-text h1 {
+    font-size: 32px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .about-features {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+  }
+}

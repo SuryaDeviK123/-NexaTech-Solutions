@@ -1,0 +1,37 @@
+.notfound{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.notfound h1{
+font-size:140px;
+color:#2563eb;
+}
+
+.notfound h2{
+font-size:40px;
+margin:20px 0;
+}
+
+.notfound p{
+color:#666;
+margin-bottom:30px;
+}
+
+.notfound a{
+text-decoration:none;
+background:#2563eb;
+color:white;
+padding:15px 35px;
+border-radius:8px;
+transition:.3s;
+}
+
+.notfound a:hover{
+background:#1d4ed8;
+}

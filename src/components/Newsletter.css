@@ -1,0 +1,30 @@
+.newsletter{
+padding:80px;
+text-align:center;
+background:#0f172a;
+color:white;
+}
+
+.newsletter form{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.newsletter input{
+padding:15px;
+width:350px;
+border:none;
+border-radius:8px;
+}
+
+.newsletter button{
+padding:15px 30px;
+background:#2563eb;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
